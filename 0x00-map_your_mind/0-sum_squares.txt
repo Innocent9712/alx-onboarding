@@ -1,0 +1,8 @@
+calculate the sum of squares of given input of numbers
+
+LET N = input numbers
+LET LOCAL_VARIABLE = 0
+FOR each number in N
+    LET squared = N * N
+    LOCAL_VARIABLE = previousLOCAL_VARIABLE + squared
+print LOCAL_VARIABLE
