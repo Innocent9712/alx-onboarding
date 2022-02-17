@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 reads in three numbers and writes them all in sorted order
 
+=======
+>>>>>>> 0cb50bbc65fba0daa1791a17bd3d013a70ceb29a
 LET N = [input of numbers]
 LET STORAGE = []
 FOR numberI in N
