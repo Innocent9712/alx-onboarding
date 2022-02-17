@@ -5,4 +5,4 @@ LET LOCAL_VARIABLE = 0
 FOR each number in N
     LET squared = N * N
     LOCAL_VARIABLE = previousLOCAL_VARIABLE + squared
-print LOCAL_VARIABLE
+PRINT LOCAL_VARIABLE

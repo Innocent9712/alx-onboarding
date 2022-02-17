@@ -1,0 +1,12 @@
+LET N = [input of numbers]
+LET STORAGE = []
+FOR numberI in N
+    IF STORAGE = []
+        PUT number in STORAGE
+    ELSE IF STORAGE != []
+        FOR numberJ in STORAGE
+            IF numberI < numberJ
+                PUT numberI in front of numberJ in STORAGE
+            ELSE
+                PUT numberI in STORAGE
+PRINT STORAGE
